@@ -1,0 +1,12 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: net6.0
+nuget FSharp.Core
+nuget Microsoft.Extensions.Logging.Abstractions
+nuget Microsoft.Extensions.Logging.Console
+nuget Microsoft.Orleans.CodeGenerator.MSBuild
+nuget Thoth.Json.Net
+nuget Wasmtime
+nuget Microsoft.Orleans.Server
+nuget Microsoft.Orleans.Client

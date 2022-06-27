@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25D0DAEF-72F1-4CBF-BDC9-5F3FE99EB0AC}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LetItRun.Engine", "src\LetItRun.Engine\LetItRun.Engine.fsproj", "{FE882125-A5E0-45CE-A814-2DF2021498B8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LetItRun.Server", "src\LetItRun.Server\LetItRun.Server.fsproj", "{053B3205-48ED-4B40-9F32-7A6F39D18680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE882125-A5E0-45CE-A814-2DF2021498B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE882125-A5E0-45CE-A814-2DF2021498B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE882125-A5E0-45CE-A814-2DF2021498B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE882125-A5E0-45CE-A814-2DF2021498B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053B3205-48ED-4B40-9F32-7A6F39D18680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053B3205-48ED-4B40-9F32-7A6F39D18680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053B3205-48ED-4B40-9F32-7A6F39D18680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053B3205-48ED-4B40-9F32-7A6F39D18680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE882125-A5E0-45CE-A814-2DF2021498B8} = {25D0DAEF-72F1-4CBF-BDC9-5F3FE99EB0AC}
+		{053B3205-48ED-4B40-9F32-7A6F39D18680} = {25D0DAEF-72F1-4CBF-BDC9-5F3FE99EB0AC}
+	EndGlobalSection
+EndGlobal

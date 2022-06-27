@@ -1,0 +1,8 @@
+FSharp.Core
+Wasmtime
+Microsoft.Orleans.Server
+Microsoft.Orleans.Client
+Microsoft.Orleans.Core.Abstractions
+Microsoft.Extensions.Logging.Console
+Microsoft.Extensions.Logging.Abstractions
+Thoth.Json.Net
