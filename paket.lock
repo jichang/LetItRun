@@ -146,4 +146,4 @@ NUGET
       Fable.Core (>= 3.0 < 4.0)
       FSharp.Core (>= 4.7.2)
       Newtonsoft.Json (>= 11.0.2)
-    Wasmtime (0.37.0-preview1)
+    Wasmtime (0.38.1-preview1)

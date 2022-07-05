@@ -2,3 +2,4 @@
 paket-files
 bin
 obj
+.fake
