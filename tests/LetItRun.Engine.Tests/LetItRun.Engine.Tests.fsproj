@@ -6,7 +6,9 @@
     <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Manifest.fs" />
+    <Compile Include="ConverterTests.fs" />
+    <Compile Include="ManifestTests.fs" />
+    <Compile Include="ExperimentTests.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>

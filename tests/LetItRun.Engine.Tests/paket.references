@@ -6,3 +6,4 @@ Microsoft.Orleans.Core.Abstractions
 Microsoft.Extensions.Logging.Console
 Microsoft.Extensions.Logging.Abstractions
 Thoth.Json.Net
+Portable.BouncyCastle

@@ -3,3 +3,4 @@ paket-files
 bin
 obj
 .fake
+TestResults

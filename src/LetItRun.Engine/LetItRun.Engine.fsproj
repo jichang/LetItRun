@@ -5,7 +5,9 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Converter.fs" />
     <Compile Include="Manifest.fs" />
+    <Compile Include="Experiment.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
