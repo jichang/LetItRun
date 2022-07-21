@@ -1,4 +1,4 @@
-namespace LetItRun.Engine
+namespace LetItRun.Core
 
 open System.Text
 

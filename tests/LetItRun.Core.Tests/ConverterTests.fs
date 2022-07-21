@@ -1,6 +1,6 @@
 module ConverterTests
 
-open LetItRun.Engine.Converter
+open LetItRun.Core.Converter
 open Xunit
 
 [<Fact>]

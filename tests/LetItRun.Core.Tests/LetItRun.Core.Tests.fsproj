@@ -27,7 +27,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\LetItRun.Engine\LetItRun.Engine.fsproj" />
+    <ProjectReference Include="..\..\src\LetItRun.Core\LetItRun.Core.fsproj" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

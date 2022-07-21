@@ -1,8 +1,8 @@
 module ManifestTests
 
 open System
-open LetItRun.Engine
-open LetItRun.Engine.Manifest
+open LetItRun.Core
+open LetItRun.Core.Manifest
 open Xunit
 open Thoth.Json.Net
 open System.Security.Cryptography

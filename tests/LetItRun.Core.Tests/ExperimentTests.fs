@@ -2,9 +2,9 @@ module ExperimentTests
 
 open Xunit
 open System.IO
-open LetItRun.Engine
-open LetItRun.Engine.Manifest
-open LetItRun.Engine.Experiment
+open LetItRun.Core
+open LetItRun.Core.Manifest
+open LetItRun.Core.Experiment
 
 [<Fact>]
 let ``Experiment.verify should return error when folder does not exist`` () =

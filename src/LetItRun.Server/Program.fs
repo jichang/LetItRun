@@ -1,5 +1,5 @@
 ﻿// For more information see https://aka.ms/fsharp-console-apps
-open LetItRun.Engine.Manifest
+open LetItRun.Core.Manifest
 open System
 open System.IO
 open System.Security.Cryptography
