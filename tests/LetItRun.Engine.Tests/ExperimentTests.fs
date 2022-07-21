@@ -7,9 +7,15 @@ open LetItRun.Engine.Manifest
 open LetItRun.Engine.Experiment
 
 [<Fact>]
-let ``Experiment.load should support loading manifest from specified directory`` () =
+let ``Experiment.verify should return error when folder does not exist`` () =
+    let path = Path.Join(Directory.GetCurrentDirectory(), "notexist")
+    let result = Experiment.verify path
+    Assert.Equal(Error (ManifestNotFound (Path.Join(path, "manifest.json"))), result)
+
+[<Fact>]
+let ``Experiment.verify should support verifying manifest from specified directory`` () =
     let path = Path.Join(Directory.GetCurrentDirectory(), "demo")
-    let result = Experiment.load path
+    let result = Experiment.verify path
 
     let sources =
         [| { name = "sources/main.wasm"

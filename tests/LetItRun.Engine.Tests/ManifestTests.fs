@@ -31,7 +31,7 @@ let ``manifest should support JSON encoding and decoding`` () =
     Assert.Equal(result, (Ok manifest))
 
 [<Fact>]
-let ``verify should validate signature of manifest`` () =
+let ``verifySignature should validate signature of manifest`` () =
     let metadata =
         { id = "0"
           version = "1.0.0"
