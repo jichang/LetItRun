@@ -5,9 +5,10 @@ framework: net6.0
 nuget FSharp.Core
 nuget Microsoft.Extensions.Logging.Abstractions
 nuget Microsoft.Extensions.Logging.Console
-nuget Microsoft.Orleans.CodeGenerator.MSBuild
+nuget Microsoft.Extensions.Hosting
+nuget Microsoft.Orleans.OrleansCodeGenerator
+nuget Microsoft.Orleans.OrleansCodeGenerator.Build
 nuget Thoth.Json.Net
 nuget Wasmtime
 nuget Microsoft.Orleans.Server
 nuget Microsoft.Orleans.Client
-nuget Portable.BouncyCastle

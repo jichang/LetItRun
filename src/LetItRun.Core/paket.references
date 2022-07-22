@@ -5,5 +5,5 @@ Microsoft.Orleans.Client
 Microsoft.Orleans.Core.Abstractions
 Microsoft.Extensions.Logging.Console
 Microsoft.Extensions.Logging.Abstractions
+Microsoft.Extensions.Hosting
 Thoth.Json.Net
-Portable.BouncyCastle

@@ -3,8 +3,7 @@
 open LetItRun.Core
 open LetItRun.GrainInterfaces.Core
 open Orleans
-open System.IO
-
+open Orleans.CodeGeneration
 module Core =
     type WorldGrain() =
         inherit Grain()
